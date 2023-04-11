@@ -1,0 +1,506 @@
+body{
+    height: 1500px;
+}
+#first{
+    position: relative;
+}
+#nav-parent{
+    position: absolute;
+    top: 15px;
+}
+#nav,#logo,#nav2,#logo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.a1{
+    color: #fefeff;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+}
+.a2{
+    color: #414f6b;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+}
+a:first-of-type{
+    margin-right: 25px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#nav-parent2{
+    margin: 20px 0;
+    background-color: #fefeff;
+}
+#second{
+    position: relative;
+}
+#slider{
+    height: 345px;
+    background-color: #414f6ba7;
+    position: relative;
+    top: -342px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#slider .row{
+    display: flex;
+    justify-content: center;
+}
+
+#head{
+    position: absolute;
+    top: 820px;
+}
+.number{
+    font-size: 110px;
+    color: #697995;
+}
+.number2{
+    color: #a0a7b5;
+    font-size: 110px;
+}
+.text{
+    font-size: 15px;
+    position: relative;
+    left: 53px;
+    top: -23px;
+}
+.numberText,.numberText2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+    left: -4px;
+    height: 90px;
+}
+.dot,.dot2{
+    color: #697995;
+    position: absolute;
+    font-size: 20px;
+    top: 50px;
+}
+.dot2{
+    color: #a0a7b5;
+}
+.dotText,.dotText2{
+    color: #414f6b;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+}
+.numberParent,.numberParent2{
+    display: flex;
+    flex-direction: row;
+}
+.text2 p{
+    margin: 0;
+}
+#hello{
+    position: relative;
+    top: -320px;
+}
+#climb{
+    position: relative;
+    top: -324px;
+}
+#tabs{
+    position: relative;
+    top: -310px;
+}
+#tabs .row:first-of-type{
+    background-color: #414f6b;
+}
+.mountain{
+    color: #b0b4be;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+}
+.active{
+    color: #414f6b;
+    background-color: #b0b4be;
+    text-decoration: underline;
+}
+#mountainImg2{
+    display: none;
+}
+
+.accordian .row:first-of-type{
+    background-color: #414f6b;
+}
+.accordianText{
+    color: white;
+    font-size: 15px;
+}
+.accordianSign{
+    color: white;
+    font-size: 25px;
+}
+.accordian{
+    display: none;
+    cursor: pointer;
+}
+#acc1{
+    position: relative;
+    top: -120px;
+}
+#acc2{
+    position: relative;
+    top: -115px;
+}
+#accImg1,#accImg2{
+    display: none;
+}
+#footer{
+    background-color: #414f6b;
+}
+.footerText{
+    color: #61739a;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1253px){
+    #slider{
+        height: 325px;
+        top: -325px;
+    }
+    #head{
+        top: 710px;
+    }
+    #climb{
+        top: -295px;
+    }
+    #tabs{
+        top: -265px;
+    }
+
+}
+@media screen and (max-width: 1180px){
+    #slider{
+        height: 300px;
+        top: -300px;
+    }
+    .mountain{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1100px){
+    #slider{
+        height: 280px;
+        top: -278px;
+    }
+    #head{
+        top: 640px;
+    }
+    .number{
+        font-size: 80px;
+    }
+    .dot{
+        font-size: 11px;
+        top: 23px;
+    }
+    .dotText{
+        font-size: 22px;
+        top: -2px;
+    }
+    .numberText{
+        top: 45px;
+    }
+    .text{
+        font-size: 12px;
+        left: 40px;
+    }
+    #climb{
+        top: -260px;
+    }
+    .number2{
+        font-size: 65px;
+    }
+    .dot2{
+        font-size: 11px;
+        top: 47px;
+    }
+    .dotText2{
+        font-size: 22px;
+    }
+    .text2 p{
+        font-size: 13px;
+    }
+    .numberText2{
+        height: 70px;
+        top: 7px;
+        left: 0px;
+    }
+    #tabs{
+        top: -235px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #slider{
+        height: 260px;
+        top: -258px;
+    }
+    #climb{
+        top: -233px;
+    }
+    .number2{
+        font-size: 40px;
+    }
+    .dot2{
+        font-size: 7px;
+        top: 22px;
+    }
+    .dotText2{
+        font-size: 12px;
+        top: 4px;
+    }
+    .text2 p{
+        font-size: 9px;
+    }
+    .numberText2{
+        height: 40px;
+        top: 11.8px;
+        left: 1px;
+    }
+    #tabs{
+        top: -210px;
+    }
+    .mountain{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 900px){
+    #slider{
+        height: 240px;
+        top: -238px;
+    }
+    #head{
+        top: 550px;
+    }
+    .number{
+        font-size: 60px;
+    }
+    .dot{
+        font-size: 8px;
+        top: 23px;
+    }
+    .dotText{
+        font-size: 22px;
+        top: -3px;
+    }
+    .numberText{
+        top: 28px;
+        left: 0px;
+        height: 50px;
+    }
+    .text{
+        font-size: 10px;
+        top: -10px;
+        left: 28px;
+    }
+    #climb{
+        top: -205px;
+    }
+    #tabs{
+        top: -170px;
+    }
+    .mountain{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 800px){
+    #slider{
+        height: 220px;
+        top: -217px;
+    }
+    #head{
+        top: 490px;
+    }
+    .mountain{
+        font-size: 10px;
+    }
+    #climb{
+        top: -194px;
+    }
+}
+@media screen and (max-width: 700px){
+    #head{
+        top: 445px;
+    }
+    .number{
+        font-size: 45px;
+    }
+    .dot{
+        font-size: 6px;
+        top: 9px;
+    }
+    .dotText{
+        font-size: 18px;
+        top: -12px;
+    }
+    .numberText{
+        top: 30px;
+        left: 0px;
+        height: 50px;
+    }
+    .text{
+        font-size: 7px;
+        left: 22px;
+    }
+    .mountain{
+        font-size: 8px;
+    }
+    .footerText{
+        font-size: 12px;
+    }
+    body{
+        height: 700px;
+    }
+}
+@media screen and (max-width: 600px){
+    #slider{
+        height: 180px;
+        top: -178px;
+    }
+    #head{
+        top: 390px;
+    }
+    #climb{
+        top: -145px;
+    }
+    #tabs{
+        top: -110px;
+    }
+    .mountain{
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 576px){
+    #tabs{
+        display: none;
+    }
+    .accordian{
+        display: block;
+    }
+    .mountain{
+        font-size: 17px;
+    }
+    #footerLogo{
+        height: auto;
+        width: 100px;
+    }
+    .footerText{
+        font-size: 9px;
+    }
+    .footerParent{
+        position: relative;
+        top: -110px;
+    }
+}
+@media screen and (max-width: 500px){
+    #slider{
+        height: 150px;
+        top: -148px;
+    }
+    #head{
+        top: 345px;
+    }
+    .number{
+        font-size: 25px;
+    }
+    .dot{
+        font-size: 3px;
+        top: 14px;
+    }
+    .dotText{
+        font-size: 10px;
+        top: 0px;
+    }
+    .numberText{
+        top: 8px;
+        left: 0px;
+        height: 24px;
+    }
+    .text{
+        font-size: 5px;
+        left: 14px;
+    }
+    #climb{
+        top: -115px;
+    }
+    .number2{
+        font-size: 25px;
+    }
+    .dot2{
+        font-size: 3px;
+        top: 21px;
+    }
+    .dotText2{
+        font-size: 9px;
+        top: 7px;
+    }
+    .text2 p{
+        font-size: 6px;
+    }
+    .numberText2{
+        height: 30px;
+        top: 1.2px;
+    }
+    #acc1{
+        position: relative;
+        top: -85px;
+    }
+    #acc2{
+        position: relative;
+        top: -80px;
+    }
+    .footerParent{
+        top: -70px;
+    }
+}
+@media screen and (max-width: 400px){
+    #slider{
+        height: 150px;
+    }
+    #head{
+        top: 303px;
+    }
+    .text{
+        left: 13px;
+    }
+    .footerText{
+        font-size: 6px;
+    }
+
+}
+@media screen and (max-width: 320px){
+    #head{
+        top: 270px;
+    }
+}
+
+@media screen and (max-width: 766px){
+    #nav-parent{
+        top: 5px;
+    }
+    a{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 576px){
+    #nav-parent{
+        top: 0px;
+    }
+}
